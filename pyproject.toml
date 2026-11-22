@@ -4,4 +4,18 @@ version = "0.1.0"
 description = "End-to-end product analytics on real AI-usage data (WildChat-1M + Anthropic Economic Index)."
 license = "MIT"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "anthropic>=2.12.0",
+    "datasets>=5.2.0",
+    "dbt-duckdb>=1.11.1",
+    "duckdb>=2.0.1",
+    "huggingface-hub>=2.4.0",
+    "pandas>=3.1.1",
+    "plotly>=7.1.0",
+    "polars>=2.1.0",
+    "pyarrow>=26.0.1",
+    "python-dotenv>=1.2.4",
+    "scipy>=1.18.1",
+    "statsmodels>=0.15.0",
+    "streamlit>=1.67.0",
+]
