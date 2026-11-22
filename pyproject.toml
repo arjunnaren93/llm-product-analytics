@@ -1,0 +1,7 @@
+[project]
+name = "llm-product-analytics"
+version = "0.1.0"
+description = "End-to-end product analytics on real AI-usage data (WildChat-1M + Anthropic Economic Index)."
+license = "MIT"
+requires-python = ">=3.12"
+dependencies = []

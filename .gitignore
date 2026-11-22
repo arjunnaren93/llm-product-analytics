@@ -1,0 +1,19 @@
+# Secrets
+.env
+
+# Data (never commit raw text or warehouse files)
+data/raw/
+data/*.duckdb
+data/*.duckdb.wal
+
+# Python
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# dbt
+dbt/target/
+dbt/logs/
+
+# OS
+.DS_Store
